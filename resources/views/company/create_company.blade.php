@@ -27,12 +27,6 @@
                             <input type="text" name="zip_code" class="form-control" placeholder="Zip code">
                         </td>
                     </tr>
-                    <tr>
-                        <td>Positions Available</td>
-                        <td>
-                            <input type="number" name="total_positions" class="form-control">
-                        </td>
-                    </tr>
                 </tbody>
             </table>
         </div>

@@ -6,10 +6,10 @@
                 <a href="{{route('home')}}" class="{{request()->routeIs('home') ? 'active' : ''}}">Inicio</a>
             </li> --}}
             <li>
-                <a href="{{route('form.people')}}" class="{{request()->routeIs('form.people') ? 'active' : ''}}">People</a>
+                <a href="{{route('form.people')}}" class="{{request()->routeIs('form.people') ? 'active' : ''}}">Employee</a>
             </li>
             <li>
-                <a href="{{route('employee.view')}}" class="{{request()->routeIs('employee.view') ? 'active' : ''}}">All People</a>
+                <a href="{{route('employee.view')}}" class="{{request()->routeIs('employee.view') ? 'active' : ''}}">All Employee</a>
             </li>
         </ul>
         <ul>

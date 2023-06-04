@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title', 'Peoples')
+@section('title', 'Employee')
 
 @section('content')
 <table class="table datatable table-hover">
@@ -17,7 +17,7 @@
                 <td>{{$people->name}}</td>
                 <td>{{$people->date_birth}}</td>
                 <td>{{$people->EducationLevel->name}}</td>
-                <td>Aja</td>
+                <td>{{$people->recorded_date}}</td>
         </tr>
         @endforeach
     </tbody>

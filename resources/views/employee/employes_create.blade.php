@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title', 'Register People')
+@section('title', 'Register Employee')
 
 @section('content')
 <form method="POST" action="{{route('people.save')}}">
