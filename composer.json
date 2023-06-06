@@ -49,7 +49,7 @@
         ],
         "databs":[
             "./vendor/bin/sail php artisan migrate",
-            "@./vendor/bin/sail artisan db:seed --class=EducationLevelSeeder"
+            "./vendor/bin/sail artisan db:seed --class=EducationLevelSeeder"
          ]
     },
     "extra": {
