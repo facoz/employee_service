@@ -35,9 +35,8 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi",
-            "@php artisan migrate",
-            "@php artisan db:seed --class=EducationLevelSeeder"
+            "@php artisan package:discover --ansi"
+            
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
@@ -47,7 +46,11 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
+        ],
+        "databs":[
+            "./vendor/bin/sail php artisan migrate",
+            "@./vendor/bin/sail artisan db:seed --class=EducationLevelSeeder"
+         ]
     },
     "extra": {
         "laravel": {
