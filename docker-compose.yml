@@ -6,7 +6,7 @@ services:
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
-        image: employee_service1
+        image: employee_service
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:
